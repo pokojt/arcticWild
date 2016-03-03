@@ -31,7 +31,7 @@ li {
  * Basic typography style for copy text
  */
 .nav {
-  height: 10vh;
+  height: 7vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -70,6 +70,7 @@ li {
   color: white;
   justify-content: space-around; }
   .hero .heroText {
+    opacity: .9;
     position: relative;
     top: -15%;
     text-align: center; }
@@ -94,6 +95,7 @@ li {
     font-size: 12px;
     letter-spacing: 2px; }
 
+/*Search bar styles ----------------------*/
 .searchbarWrapper {
   height: 12vh;
   background: #343433; }
@@ -130,6 +132,51 @@ li {
         color: white;
         cursor: pointer; }
 
+/* Trip gallery styles ----------------------------*/
+.tripsGallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+  .tripsGallery .tripBox {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    color: white; }
+    .tripsGallery .tripBox hr {
+      width: 50px;
+      border: 3px solid #DC7725; }
+  .tripsGallery #rafting {
+    width: 50%;
+    background: url("../img/home-raft.jpg");
+    background-size: cover;
+    background-position: center; }
+  .tripsGallery #baseCamp {
+    width: 25%;
+    background: url("../img/home-basecamp.jpg");
+    background-size: cover;
+    background-position: center; }
+  .tripsGallery #backpacking {
+    width: 25%;
+    background: url("../img/home-backpacking.jpg");
+    background-size: cover;
+    background-position: center; }
+  .tripsGallery #canoe {
+    width: 25%;
+    background: url("../img/home-canoe.jpg");
+    background-size: cover;
+    background-position: center; }
+  .tripsGallery #photography {
+    width: 25%;
+    background: url("../img/home-photo.jpg");
+    background-size: cover;
+    background-position: center; }
+  .tripsGallery #custom {
+    width: 50%;
+    background: url("../img/home-custom.jpg");
+    background-size: cover;
+    background-position: center; }
+
+/* Trip gallery styles ----------------------------*/
 .testimonials {
   background-image: url("../img/bg-testimonials.jpg");
   background-size: contain;

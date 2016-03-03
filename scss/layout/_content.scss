@@ -1,3 +1,5 @@
+/*Search bar styles ----------------------*/
+
 .searchbarWrapper {
   height: 12vh;
   background: $backgroundBrown;
@@ -43,6 +45,63 @@
     }
   }
 }
+
+
+/* Trip gallery styles ----------------------------*/
+
+.tripsGallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  .tripBox {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    hr {
+      width: 50px;
+      border: 3px solid $exploreOrange;
+    }
+  }
+  #rafting {
+    width: 50%;
+    background: url("#{$path-img}/home-raft.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  #baseCamp {
+    width: 25%;
+    background: url("#{$path-img}/home-basecamp.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  #backpacking {
+    width: 25%;
+    background: url("#{$path-img}/home-backpacking.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  #canoe{
+    width: 25%;
+    background: url("#{$path-img}/home-canoe.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  #photography {
+    width: 25%;
+    background: url("#{$path-img}/home-photo.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  #custom {
+    width: 50%;
+    background: url("#{$path-img}/home-custom.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* Trip gallery styles ----------------------------*/
 
 .testimonials {
   background-image:url("#{$path-img}/bg-testimonials.jpg");
