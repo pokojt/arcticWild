@@ -94,6 +94,42 @@ li {
     font-size: 12px;
     letter-spacing: 2px; }
 
+.searchbarWrapper {
+  height: 12vh;
+  background: #343433; }
+  .searchbarWrapper .searchbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #C9C9B8;
+    font-family: sans-serif;
+    border-top: 2px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.6);
+    letter-spacing: 1px; }
+    .searchbarWrapper .searchbar ul {
+      display: flex; }
+      .searchbarWrapper .searchbar ul li {
+        margin: 1%;
+        padding: 10px; }
+        .searchbarWrapper .searchbar ul li:hover {
+          color: white;
+          cursor: pointer; }
+      .searchbarWrapper .searchbar ul li:first-child {
+        color: white; }
+        .searchbarWrapper .searchbar ul li:first-child:hover {
+          color: #DC7725; }
+      .searchbarWrapper .searchbar ul li:last-child {
+        color: #DC7725;
+        border-left: 1px solid #C9C9B8;
+        padding-left: 20px; }
+    .searchbarWrapper .searchbar .search {
+      display: flex;
+      align-items: center;
+      margin-right: 5%; }
+      .searchbarWrapper .searchbar .search:hover {
+        color: white;
+        cursor: pointer; }
+
 .testimonials {
   background-image: url("../img/bg-testimonials.jpg");
   background-size: contain;
