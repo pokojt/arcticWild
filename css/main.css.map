@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAGE,IAAK;EACH,UAAU,EAAE,UAAU;;AAItB,sBAEU;EACR,UAAU,EAAE,OAAO;;ACPzB;;QAES;EACP,kBAAkB,EAAE,UAAU;EAC9B,eAAe,EAAE,UAAU;EAC3B,UAAU,EAAE,UAAU;;AAExB,UAAW;EACT,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,GAAG;;AAIb;;GAEG;AACH,CAAE;EACA,eAAe,EAAE,IAAI;;ACrBvB;;GAEG",
-"sources": ["../scss/neat/grid/_box-sizing.scss","../scss/base/_base.scss","../scss/base/_typography.scss"],
+"mappings": "AAGE,IAAK;EACH,UAAU,EAAE,UAAU;;AAItB,sBAEU;EACR,UAAU,EAAE,OAAO;;ACPzB;;QAES;EACP,kBAAkB,EAAE,UAAU;EAC9B,eAAe,EAAE,UAAU;EAC3B,UAAU,EAAE,UAAU;;AAExB,UAAW;EACT,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,GAAG;EACX,gBAAgB,ECLD,OAAO;;ADSxB;;GAEG;AACH,CAAE;EACA,eAAe,EAAE,IAAI;;AEtBvB;;GAEG;ACGH,KAAM;EACJ,gBAAgB,EAAC,2BAAiC;EAClD,eAAe,EAAE,KAAK;EACtB,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,KAAK;;ACTf,aAAc;EACZ,gBAAgB,EAAC,iCAAuC;EACxD,eAAe,EAAE,OAAO;EACxB,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,MAAM;EAC3B,MAAM,EAAE,IAAI",
+"sources": ["../scss/neat/grid/_box-sizing.scss","../scss/base/_base.scss","../scss/utils/_variables.scss","../scss/base/_typography.scss","../scss/layout/_header.scss","../scss/layout/_content.scss"],
 "names": [],
 "file": "main.css"
 }

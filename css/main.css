@@ -13,7 +13,8 @@ html {
 
 html, body {
   padding: 0px;
-  margin: 0px; }
+  margin: 0px;
+  background-color: #E6E6E0; }
 
 /**
  * Basic styles for links
@@ -24,5 +25,17 @@ a {
 /**
  * Basic typography style for copy text
  */
+.hero {
+  background-image: url("../img/heroImage.jpg");
+  background-size: cover;
+  height: 100vh;
+  height: 100vh; }
+
+.testimonials {
+  background-image: url("../img/bg-testimonials.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh; }
 
 /*# sourceMappingURL=main.css.map */
