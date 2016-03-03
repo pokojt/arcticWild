@@ -13,6 +13,7 @@ html, body {
   padding: 0px;
   margin: 0px;
   background-color: $backgroundGray;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 
@@ -21,4 +22,9 @@ html, body {
  */
 a {
   text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style-type: none;
 }

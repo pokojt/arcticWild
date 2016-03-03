@@ -14,22 +14,74 @@ html {
 html, body {
   padding: 0px;
   margin: 0px;
-  background-color: #E6E6E0; }
+  background-color: #E6E6E0;
+  font-family: 'Fjalla One', sans-serif; }
 
 /**
  * Basic styles for links
  */
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
+
+li {
+  list-style-type: none; }
 
 /**
  * Basic typography style for copy text
  */
+.nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap; }
+  .nav::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .nav img:hover {
+    cursor: pointer; }
+  .nav ul {
+    justify-content: flex-end;
+    width: 70%;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px; }
+    .nav ul li {
+      padding: 10px 3% 10px 3%; }
+      .nav ul li i {
+        font-size: 10px; }
+      .nav ul li a:hover {
+        color: #DC7725; }
+
 .hero {
   background-image: url("../img/heroImage.jpg");
   background-size: cover;
   height: 100vh;
-  height: 100vh; }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+  .hero .heroText {
+    color: white;
+    text-align: center; }
+    .hero .heroText h2 {
+      letter-spacing: 3px; }
+    .hero .heroText h1 {
+      font-family: 'Merriweather', serif;
+      font-size: 110px;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      margin: 0; }
+    .hero .heroText hr {
+      width: 35%;
+      border: 2px solid white; }
 
 .testimonials {
   background-image: url("../img/bg-testimonials.jpg");

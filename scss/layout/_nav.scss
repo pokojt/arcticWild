@@ -1,0 +1,27 @@
+.nav {
+  @include size(100% 10vh);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @include outer-container(95%);
+  flex-wrap: wrap;
+  img:hover {
+    cursor: pointer;
+  }
+  ul {
+    justify-content: flex-end;
+    width: 70%;
+    display: flex;
+    text-transform: uppercase;
+    @include text(16px, $l-spacing: 1px);
+    li {
+      padding: 10px 3% 10px 3%;
+      i {
+        font-size: 10px;
+      }
+    a:hover {
+        color: $exploreOrange;
+      }
+    }
+  }
+}
