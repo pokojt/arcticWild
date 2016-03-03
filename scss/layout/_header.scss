@@ -10,12 +10,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
   justify-content: space-around;
   .heroText {
-    color: white;
+    position: relative;
+    top: -15%;
     text-align: center;
     h2 {
       letter-spacing: 3px;
+      margin-bottom: 0;
     }
     h1 {
       font-family: 'Merriweather', serif;
@@ -26,5 +29,11 @@
       width: 35%;
       border: 2px solid white;
     }
+  }
+  .exploreButton {
+    background-color: $exploreOrange;
+    padding: 5px 25px 5px 25px;
+    cursor: pointer;
+    @include text(12px, $l-spacing:2px);
   }
 }

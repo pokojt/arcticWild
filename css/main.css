@@ -67,12 +67,15 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
   justify-content: space-around; }
   .hero .heroText {
-    color: white;
+    position: relative;
+    top: -15%;
     text-align: center; }
     .hero .heroText h2 {
-      letter-spacing: 3px; }
+      letter-spacing: 3px;
+      margin-bottom: 0; }
     .hero .heroText h1 {
       font-family: 'Merriweather', serif;
       font-size: 110px;
@@ -82,6 +85,12 @@ li {
     .hero .heroText hr {
       width: 35%;
       border: 2px solid white; }
+  .hero .exploreButton {
+    background-color: #DC7725;
+    padding: 5px 25px 5px 25px;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 2px; }
 
 .testimonials {
   background-image: url("../img/bg-testimonials.jpg");
