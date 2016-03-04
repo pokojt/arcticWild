@@ -84,6 +84,11 @@
       opacity: .8;
       border-radius: 50%;
       padding: 30px 35px 30px 35px;
+      @media screen and #{$brk-small} {
+        margin-bottom: 0px;
+        font-size: 1.5em;
+        padding: 20px 25px 20px 25px;
+      }
     }
     .tripBoxText {
       .orangeLine {
@@ -96,7 +101,13 @@
         @media screen and #{$brk-medium} {
           @include text(23px);
         }
+        @media screen and #{$brk-small} {
+          @include text(22px);
+        }
       }
+    }
+    @media screen and #{$brk-small} {
+      margin: 5% 5% 0 5%;
     }
   }
   #rafting {
@@ -107,6 +118,9 @@
     @media screen and #{$brk-medium} {
       width: 100%;
     }
+    @media screen and #{$brk-small} {
+      height: 260px;
+    }
   }
   #baseCamp {
     width: 25%;
@@ -115,6 +129,10 @@
     background-position: center;
     @media screen and #{$brk-medium} {
       width: 50%;
+    }
+    @media screen and #{$brk-small} {
+      height: 260px;
+      width: 100%;
     }
   }
   #backpacking {
@@ -125,6 +143,10 @@
     @media screen and #{$brk-medium} {
       width: 50%;
     }
+    @media screen and #{$brk-small} {
+      height: 260px;
+      width: 100%;
+    }
   }
   #canoe{
     width: 25%;
@@ -133,6 +155,10 @@
     background-position: center;
     @media screen and #{$brk-medium} {
       width: 50%;
+    }
+    @media screen and #{$brk-small} {
+      height: 260px;
+      width: 100%;
     }
   }
   #photography {
@@ -143,6 +169,10 @@
     @media screen and #{$brk-medium} {
       width: 50%;
     }
+    @media screen and #{$brk-small} {
+      height: 260px;
+      width: 100%;
+    }
   }
   #custom {
     width: 50%;
@@ -150,6 +180,10 @@
     background-size: cover;
     background-position: center;
     @media screen and #{$brk-medium} {
+      width: 100%;
+    }
+    @media screen and #{$brk-small} {
+      height: 260px;
       width: 100%;
     }
   }

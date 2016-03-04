@@ -125,14 +125,8 @@ li {
         .hero .heroText h1 {
           font-size: 70px; } }
     .hero .heroText hr {
-      width: 30%;
+      width: 35%;
       border: 2px solid white; }
-  .hero .exploreButton {
-    background-color: #DC7725;
-    padding: 5px 25px 5px 25px;
-    cursor: pointer;
-    font-size: 12px;
-    letter-spacing: 2px; }
   @media screen and (max-width: 960px) {
     .hero {
       height: 45vh;
@@ -209,6 +203,11 @@ li {
       opacity: .8;
       border-radius: 50%;
       padding: 30px 35px 30px 35px; }
+      @media screen and (max-width: 767px) {
+        .tripsGallery .tripBox i {
+          margin-bottom: 0px;
+          font-size: 1.5em;
+          padding: 20px 25px 20px 25px; } }
     .tripsGallery .tripBox .tripBoxText .orangeLine {
       width: 40px;
       border: 3px solid #DC7725; }
@@ -219,6 +218,12 @@ li {
       @media screen and (max-width: 960px) {
         .tripsGallery .tripBox .tripBoxText h3 {
           font-size: 23px; } }
+      @media screen and (max-width: 767px) {
+        .tripsGallery .tripBox .tripBoxText h3 {
+          font-size: 22px; } }
+    @media screen and (max-width: 767px) {
+      .tripsGallery .tripBox {
+        margin: 5% 5% 0 5%; } }
   .tripsGallery #rafting {
     width: 50%;
     background: url("../img/home-raft.jpg");
@@ -227,6 +232,9 @@ li {
     @media screen and (max-width: 960px) {
       .tripsGallery #rafting {
         width: 100%; } }
+    @media screen and (max-width: 767px) {
+      .tripsGallery #rafting {
+        height: 260px; } }
   .tripsGallery #baseCamp {
     width: 25%;
     background: url("../img/home-basecamp.jpg");
@@ -235,6 +243,10 @@ li {
     @media screen and (max-width: 960px) {
       .tripsGallery #baseCamp {
         width: 50%; } }
+    @media screen and (max-width: 767px) {
+      .tripsGallery #baseCamp {
+        height: 260px;
+        width: 100%; } }
   .tripsGallery #backpacking {
     width: 25%;
     background: url("../img/home-backpacking.jpg");
@@ -243,6 +255,10 @@ li {
     @media screen and (max-width: 960px) {
       .tripsGallery #backpacking {
         width: 50%; } }
+    @media screen and (max-width: 767px) {
+      .tripsGallery #backpacking {
+        height: 260px;
+        width: 100%; } }
   .tripsGallery #canoe {
     width: 25%;
     background: url("../img/home-canoe.jpg");
@@ -251,6 +267,10 @@ li {
     @media screen and (max-width: 960px) {
       .tripsGallery #canoe {
         width: 50%; } }
+    @media screen and (max-width: 767px) {
+      .tripsGallery #canoe {
+        height: 260px;
+        width: 100%; } }
   .tripsGallery #photography {
     width: 25%;
     background: url("../img/home-photo.jpg");
@@ -259,6 +279,10 @@ li {
     @media screen and (max-width: 960px) {
       .tripsGallery #photography {
         width: 50%; } }
+    @media screen and (max-width: 767px) {
+      .tripsGallery #photography {
+        height: 260px;
+        width: 100%; } }
   .tripsGallery #custom {
     width: 50%;
     background: url("../img/home-custom.jpg");
@@ -266,6 +290,10 @@ li {
     background-position: center; }
     @media screen and (max-width: 960px) {
       .tripsGallery #custom {
+        width: 100%; } }
+    @media screen and (max-width: 767px) {
+      .tripsGallery #custom {
+        height: 260px;
         width: 100%; } }
 
 /* Extra Content styles ----------------------------*/
@@ -275,5 +303,15 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   height: 60vh; }
+
+.exploreButton {
+  background-color: #DC7725;
+  padding: 5px 25px 5px 25px;
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: 2px; }
+  @media screen and (max-width: 767px) {
+    .exploreButton {
+      display: none; } }
 
 /*# sourceMappingURL=main.css.map */
