@@ -2,25 +2,31 @@
   @include size(100% 7vh);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   @include outer-container(95%);
-  flex-wrap: wrap;
-  img:hover {
-    cursor: pointer;
+  .logoImg {
+    flex: 1 1 auto;
+    text-align: center;
+    &:hover {
+      cursor: pointer;
+    }
   }
   ul {
-    justify-content: flex-end;
-    width: 70%;
+    justify-content: space-around;
     display: flex;
+    flex: 1.3 1.3 auto;
+    padding-left: 0;
     text-transform: uppercase;
     @include text(16px, $l-spacing: 1px);
-    li {
+    li a{
+      display: flex;
       padding: 10px 3% 10px 3%;
+      &:hover {
+          color: $exploreOrange;
+        }
       i {
         font-size: 10px;
-      }
-    a:hover {
-        color: $exploreOrange;
+        padding: 5px 0 5px 5px;
       }
     }
   }

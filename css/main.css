@@ -38,30 +38,35 @@ li {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 95%;
   margin-left: auto;
-  margin-right: auto;
-  flex-wrap: wrap; }
+  margin-right: auto; }
   .nav::after {
     clear: both;
     content: "";
     display: table; }
-  .nav img:hover {
-    cursor: pointer; }
+  .nav .logoImg {
+    flex: 1 1 auto;
+    text-align: center; }
+    .nav .logoImg:hover {
+      cursor: pointer; }
   .nav ul {
-    justify-content: flex-end;
-    width: 70%;
+    justify-content: space-around;
     display: flex;
+    flex: 1.3 1.3 auto;
+    padding-left: 0;
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: 1px; }
-    .nav ul li {
+    .nav ul li a {
+      display: flex;
       padding: 10px 3% 10px 3%; }
-      .nav ul li i {
-        font-size: 10px; }
       .nav ul li a:hover {
         color: #DC7725; }
+      .nav ul li a i {
+        font-size: 10px;
+        padding: 5px 0 5px 5px; }
 
 .hero {
   background-image: url("../img/heroImage.jpg");
