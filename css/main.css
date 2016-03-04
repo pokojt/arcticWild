@@ -46,6 +46,9 @@ li {
     clear: both;
     content: "";
     display: table; }
+  @media screen and (max-width: 960px) {
+    .nav {
+      display: none; } }
   .nav .logoImg {
     flex: 1 1 auto;
     text-align: center; }
@@ -67,6 +70,25 @@ li {
       .nav ul li a i {
         font-size: 10px;
         padding: 5px 0 5px 5px; }
+
+.mobileNav {
+  display: none; }
+  @media screen and (max-width: 960px) {
+    .mobileNav {
+      display: flex;
+      padding-bottom: 30px;
+      justify-content: space-between;
+      width: 80%;
+      align-items: center; }
+      .mobileNav .logoImg {
+        width: 90%; }
+        .mobileNav .logoImg img {
+          width: 220px; }
+      .mobileNav .dropdownMenu {
+        font-size: 30px; }
+        .mobileNav .dropdownMenu:hover {
+          cursor: pointer;
+          color: #DC7725; } }
 
 .hero {
   background-image: url("../img/heroImage.jpg");

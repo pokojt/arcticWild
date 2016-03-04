@@ -4,6 +4,9 @@
   align-items: center;
   justify-content: center;
   @include outer-container(95%);
+  @media screen and #{$brk-medium} {
+    display: none;
+  }
   .logoImg {
     flex: 1 1 auto;
     text-align: center;
@@ -27,6 +30,30 @@
       i {
         font-size: 10px;
         padding: 5px 0 5px 5px;
+      }
+    }
+  }
+}
+
+.mobileNav {
+  display: none;
+  @media screen and #{$brk-medium} {
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    .logoImg {
+      width: 90%;
+      img {
+        width: 220px;
+      }
+    }
+    .dropdownMenu {
+      font-size: 30px;
+      &:hover {
+        cursor: pointer;
+        color: $exploreOrange;
       }
     }
   }
