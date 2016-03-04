@@ -82,19 +82,28 @@ li {
     position: relative;
     top: -15%;
     text-align: center; }
+    @media screen and (max-width: 960px) {
+      .hero .heroText {
+        top: -7%; } }
     .hero .heroText h2 {
       font-size: 22px;
       font-weight: lighter;
       letter-spacing: 4px;
       margin-bottom: 0; }
+      @media screen and (max-width: 960px) {
+        .hero .heroText h2 {
+          font-size: 18px; } }
     .hero .heroText h1 {
       font-family: 'Merriweather', serif;
       font-size: 110px;
       font-weight: lighter;
       letter-spacing: 4px;
       margin: 0; }
+      @media screen and (max-width: 960px) {
+        .hero .heroText h1 {
+          font-size: 70px; } }
     .hero .heroText hr {
-      width: 35%;
+      width: 30%;
       border: 2px solid white; }
   .hero .exploreButton {
     background-color: #DC7725;
@@ -104,7 +113,8 @@ li {
     letter-spacing: 2px; }
   @media screen and (max-width: 960px) {
     .hero {
-      height: 43vh; } }
+      height: 45vh;
+      justify-content: center; } }
 
 /*Search bar styles ----------------------*/
 .searchbarWrapper {

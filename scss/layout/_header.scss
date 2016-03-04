@@ -17,17 +17,26 @@
     position: relative;
     top: -15%;
     text-align: center;
+    @media screen and #{$brk-medium} {
+      top: -7%;
+    }
     h2 {
       @include text(22px, lighter, $l-spacing: 4px);
       margin-bottom: 0;
+      @media screen and #{$brk-medium} {
+        @include text(18px);
+      }
     }
     h1 {
       font-family: 'Merriweather', serif;
       @include text(110px, lighter, $l-spacing: 4px);
       margin: 0;
+      @media screen and #{$brk-medium} {
+        @include text(70px);
+      }
     }
     hr {
-      width: 35%;
+      width: 30%;
       border: 2px solid white;
     }
   }
@@ -36,8 +45,10 @@
     padding: 5px 25px 5px 25px;
     cursor: pointer;
     @include text(12px, $l-spacing:2px);
+
   }
   @media screen and #{$brk-medium} {
-    height: 43vh;
+    height: 45vh;
+    justify-content: center;
   }
 }
