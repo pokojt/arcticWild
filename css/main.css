@@ -107,6 +107,7 @@ a.dropdown:hover {
 li a.orangeHover:hover {
   color: #DC7725; }
 
+/* Mobile Nav Styles ---------------------------------*/
 .mobileNav {
   display: none; }
   @media screen and (max-width: 960px) {
