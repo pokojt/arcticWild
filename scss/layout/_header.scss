@@ -30,7 +30,7 @@
         @include text(18px);
       }
       @media screen and #{$brk-small}  {
-        @include text(14px);
+        @include text(12px);
       }
     }
     h1 {
@@ -41,7 +41,7 @@
         @include text(70px);
       }
       @media screen and #{$brk-small}  {
-        @include text(50px);
+        @include text(45px);
       }
     }
     hr {

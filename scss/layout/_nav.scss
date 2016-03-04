@@ -24,16 +24,58 @@
     li a{
       display: flex;
       padding: 10px 3% 10px 3%;
-      &:hover {
-          color: $exploreOrange;
-        }
       i {
         font-size: 10px;
         padding: 5px 0 5px 5px;
       }
     }
+    .dropdownMenu {
+      position: absolute;
+      display: none;
+      background: $dropdownGray;
+      z-index: 1;
+      color: $textCream;
+      border-radius: 0 0 2px 2px;
+      p {
+        border-bottom: 1px solid $textCream;
+        text-transform: none;
+        padding: 0px 15px 10px 10px;
+        font-family: sans-serif;
+        font-weight: lighter;
+      }
+    }
+    #dropdownMenu1 {
+      top: 177px;
+      right: 42%;
+    }
+    #dropdownMenu2 {
+      top: 177px;
+      right: 30.75%;
+    }
+    #dropdownMenu3 {
+      top: 177px;
+      right: 19.75%;
+    }
+    #dropdownMenu4 {
+      top: 177px;
+      right: 11.5%;
+    }
   }
 }
+
+a.dropdown:hover {
+  background: $dropdownGray;
+  color: $white;
+  border-radius: 2px 2px 0 0;
+  .dropdownMenu {
+    display: block;
+  }
+}
+
+li a.orangeHover:hover {
+  color: $exploreOrange;
+}
+
 
 .mobileNav {
   display: none;
@@ -49,7 +91,7 @@
         width: 220px;
       }
     }
-    .dropdownMenu {
+    .dropdownButton{
       font-size: 30px;
       &:hover {
         cursor: pointer;

@@ -65,11 +65,44 @@ li {
     .nav ul li a {
       display: flex;
       padding: 10px 3% 10px 3%; }
-      .nav ul li a:hover {
-        color: #DC7725; }
       .nav ul li a i {
         font-size: 10px;
         padding: 5px 0 5px 5px; }
+    .nav ul .dropdownMenu {
+      position: absolute;
+      display: none;
+      background: #404040;
+      z-index: 1;
+      color: #C9C9B8;
+      border-radius: 0 0 2px 2px; }
+      .nav ul .dropdownMenu p {
+        border-bottom: 1px solid #C9C9B8;
+        text-transform: none;
+        padding: 0px 15px 10px 10px;
+        font-family: sans-serif;
+        font-weight: lighter; }
+    .nav ul #dropdownMenu1 {
+      top: 177px;
+      right: 42%; }
+    .nav ul #dropdownMenu2 {
+      top: 177px;
+      right: 30.75%; }
+    .nav ul #dropdownMenu3 {
+      top: 177px;
+      right: 19.75%; }
+    .nav ul #dropdownMenu4 {
+      top: 177px;
+      right: 11.5%; }
+
+a.dropdown:hover {
+  background: #404040;
+  color: white;
+  border-radius: 2px 2px 0 0; }
+  a.dropdown:hover .dropdownMenu {
+    display: block; }
+
+li a.orangeHover:hover {
+  color: #DC7725; }
 
 .mobileNav {
   display: none; }
@@ -84,9 +117,9 @@ li {
         width: 90%; }
         .mobileNav .logoImg img {
           width: 220px; }
-      .mobileNav .dropdownMenu {
+      .mobileNav .dropdownButton {
         font-size: 30px; }
-        .mobileNav .dropdownMenu:hover {
+        .mobileNav .dropdownButton:hover {
           cursor: pointer;
           color: #DC7725; } }
 
@@ -120,7 +153,7 @@ li {
           font-size: 18px; } }
       @media screen and (max-width: 767px) {
         .hero .heroText h2 {
-          font-size: 14px; } }
+          font-size: 12px; } }
     .hero .heroText h1 {
       font-family: 'Merriweather', serif;
       font-size: 110px;
@@ -132,7 +165,7 @@ li {
           font-size: 70px; } }
       @media screen and (max-width: 767px) {
         .hero .heroText h1 {
-          font-size: 50px; } }
+          font-size: 45px; } }
     .hero .heroText hr {
       width: 35%;
       border: 2px solid white; }
