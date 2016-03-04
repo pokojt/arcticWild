@@ -144,9 +144,19 @@ li {
     height: 420px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     color: white;
+    border: 1px solid white;
     padding: 2%; }
-    .tripsGallery .tripBox hr {
+    .tripsGallery .tripBox i {
+      align-self: center;
+      margin-bottom: 80px;
+      background: #343433;
+      font-size: 2em;
+      opacity: .6;
+      border-radius: 50%;
+      padding: 30px 35px 30px 35px; }
+    .tripsGallery .tripBox .tripBoxText .orangeLine {
       width: 50px;
       border: 3px solid #DC7725; }
   .tripsGallery #rafting {
