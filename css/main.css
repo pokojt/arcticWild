@@ -17,6 +17,9 @@ html, body {
   background-color: #E6E6E0;
   font-family: 'Fjalla One', sans-serif; }
 
+body::-webkit-scrollbar {
+  display: none; }
+
 /**
  * Basic styles for links
  */
@@ -141,7 +144,8 @@ li {
     height: 420px;
     display: flex;
     flex-direction: column;
-    color: white; }
+    color: white;
+    padding: 2%; }
     .tripsGallery .tripBox hr {
       width: 50px;
       border: 3px solid #DC7725; }

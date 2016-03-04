@@ -16,6 +16,10 @@ html, body {
   font-family: 'Fjalla One', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 
 /**
  * Basic styles for links
