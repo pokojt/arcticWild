@@ -360,4 +360,17 @@ li a.orangeHover:hover {
     .exploreButton {
       display: none; } }
 
+#triangle-down {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 10px solid #DC7725;
+  left: 50%;
+  transform: translate(-50%, 0); }
+  @media screen and (max-width: 767px) {
+    #triangle-down {
+      display: none; } }
+
 /*# sourceMappingURL=main.css.map */

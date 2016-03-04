@@ -11,3 +11,16 @@
     display: none;
   }
 }
+#triangle-down {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 10px solid $exploreOrange;
+  left: 50%;
+  transform: translate(-50%, 0);
+  @media screen and #{$brk-small} {
+    display: none;
+  }
+}
