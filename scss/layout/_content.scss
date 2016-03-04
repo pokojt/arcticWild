@@ -3,6 +3,9 @@
 .searchbarWrapper {
   height: 12vh;
   background: $backgroundBrown;
+  @media screen and #{$brk-medium} {
+    display: none;
+  }
   .searchbar {
     display: flex;
     justify-content: space-between;
@@ -59,7 +62,6 @@
     flex-direction: column;
     justify-content: flex-end;
     color: $white;
-    border: 1px solid $white;
     padding: 2%;
     -webkit-transition: transform .4s;
     transition: transform .4s;
@@ -91,6 +93,9 @@
       h3 {
         width: 80%;
         @include text(20px, lighter);
+        @media screen and #{$brk-medium} {
+          @include text(23px);
+        }
       }
     }
   }
@@ -99,36 +104,54 @@
     background: url("#{$path-img}/home-raft.jpg");
     background-size: cover;
     background-position: center;
+    @media screen and #{$brk-medium} {
+      width: 100%;
+    }
   }
   #baseCamp {
     width: 25%;
     background: url("#{$path-img}/home-basecamp.jpg");
     background-size: cover;
     background-position: center;
+    @media screen and #{$brk-medium} {
+      width: 50%;
+    }
   }
   #backpacking {
     width: 25%;
     background: url("#{$path-img}/home-backpacking.jpg");
     background-size: cover;
     background-position: center;
+    @media screen and #{$brk-medium} {
+      width: 50%;
+    }
   }
   #canoe{
     width: 25%;
     background: url("#{$path-img}/home-canoe.jpg");
     background-size: cover;
     background-position: center;
+    @media screen and #{$brk-medium} {
+      width: 50%;
+    }
   }
   #photography {
     width: 25%;
     background: url("#{$path-img}/home-photo.jpg");
     background-size: cover;
     background-position: center;
+    @media screen and #{$brk-medium} {
+      width: 50%;
+    }
   }
   #custom {
     width: 50%;
     background: url("#{$path-img}/home-custom.jpg");
     background-size: cover;
     background-position: center;
+    @media screen and #{$brk-medium} {
+      width: 100%;
+    }
   }
 }
 

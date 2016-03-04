@@ -37,4 +37,7 @@
     cursor: pointer;
     @include text(12px, $l-spacing:2px);
   }
+  @media screen and #{$brk-medium} {
+    height: 43vh;
+  }
 }

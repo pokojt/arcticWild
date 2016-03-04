@@ -102,11 +102,17 @@ li {
     cursor: pointer;
     font-size: 12px;
     letter-spacing: 2px; }
+  @media screen and (max-width: 960px) {
+    .hero {
+      height: 43vh; } }
 
 /*Search bar styles ----------------------*/
 .searchbarWrapper {
   height: 12vh;
   background: #343433; }
+  @media screen and (max-width: 960px) {
+    .searchbarWrapper {
+      display: none; } }
   .searchbarWrapper .searchbar {
     display: flex;
     justify-content: space-between;
@@ -151,7 +157,6 @@ li {
     flex-direction: column;
     justify-content: flex-end;
     color: white;
-    border: 1px solid white;
     padding: 2%;
     -webkit-transition: transform .4s;
     transition: transform .4s; }
@@ -179,36 +184,57 @@ li {
       width: 80%;
       font-size: 20px;
       font-weight: lighter; }
+      @media screen and (max-width: 960px) {
+        .tripsGallery .tripBox .tripBoxText h3 {
+          font-size: 23px; } }
   .tripsGallery #rafting {
     width: 50%;
     background: url("../img/home-raft.jpg");
     background-size: cover;
     background-position: center; }
+    @media screen and (max-width: 960px) {
+      .tripsGallery #rafting {
+        width: 100%; } }
   .tripsGallery #baseCamp {
     width: 25%;
     background: url("../img/home-basecamp.jpg");
     background-size: cover;
     background-position: center; }
+    @media screen and (max-width: 960px) {
+      .tripsGallery #baseCamp {
+        width: 50%; } }
   .tripsGallery #backpacking {
     width: 25%;
     background: url("../img/home-backpacking.jpg");
     background-size: cover;
     background-position: center; }
+    @media screen and (max-width: 960px) {
+      .tripsGallery #backpacking {
+        width: 50%; } }
   .tripsGallery #canoe {
     width: 25%;
     background: url("../img/home-canoe.jpg");
     background-size: cover;
     background-position: center; }
+    @media screen and (max-width: 960px) {
+      .tripsGallery #canoe {
+        width: 50%; } }
   .tripsGallery #photography {
     width: 25%;
     background: url("../img/home-photo.jpg");
     background-size: cover;
     background-position: center; }
+    @media screen and (max-width: 960px) {
+      .tripsGallery #photography {
+        width: 50%; } }
   .tripsGallery #custom {
     width: 50%;
     background: url("../img/home-custom.jpg");
     background-size: cover;
     background-position: center; }
+    @media screen and (max-width: 960px) {
+      .tripsGallery #custom {
+        width: 100%; } }
 
 /* Extra Content styles ----------------------------*/
 .testimonials {
