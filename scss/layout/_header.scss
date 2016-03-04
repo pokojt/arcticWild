@@ -20,11 +20,17 @@
     @media screen and #{$brk-medium} {
       top: -7%;
     }
+    @media screen and #{$brk-small} {
+      top: 0;
+    }
     h2 {
       @include text(22px, lighter, $l-spacing: 4px);
       margin-bottom: 0;
       @media screen and #{$brk-medium} {
         @include text(18px);
+      }
+      @media screen and #{$brk-small}  {
+        @include text(14px);
       }
     }
     h1 {
@@ -33,6 +39,9 @@
       margin: 0;
       @media screen and #{$brk-medium} {
         @include text(70px);
+      }
+      @media screen and #{$brk-small}  {
+        @include text(50px);
       }
     }
     hr {
@@ -43,5 +52,9 @@
   @media screen and #{$brk-medium} {
     height: 45vh;
     justify-content: center;
+  }
+  @media screen and #{$brk-small} {
+    justify-content: flex-start;
+    padding-top: 5%;
   }
 }
