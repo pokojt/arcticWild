@@ -73,10 +73,11 @@ li {
       display: none;
       background: #404040;
       z-index: 1;
-      color: #C9C9B8;
+      color: #c4c4be;
+      width: 250px;
       border-radius: 0 0 2px 2px; }
       .nav ul .dropdownMenu p {
-        border-bottom: 1px solid #C9C9B8;
+        border-bottom: 1px solid #c4c4be;
         text-transform: none;
         padding: 0px 15px 10px 10px;
         font-family: sans-serif;
@@ -191,7 +192,7 @@ li a.orangeHover:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #C9C9B8;
+    color: #c4c4be;
     font-family: sans-serif;
     border-top: 2px solid rgba(0, 0, 0, 0.6);
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.6);
@@ -210,7 +211,7 @@ li a.orangeHover:hover {
           color: #DC7725; }
       .searchbarWrapper .searchbar ul li:last-child {
         color: #DC7725;
-        border-left: 1px solid #C9C9B8;
+        border-left: 1px solid #c4c4be;
         padding-left: 20px; }
     .searchbarWrapper .searchbar .search {
       display: flex;
