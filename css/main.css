@@ -81,6 +81,8 @@ li {
         padding: 0px 15px 10px 10px;
         font-family: sans-serif;
         font-weight: lighter; }
+        .nav ul .dropdownMenu p:hover {
+          color: white; }
     .nav ul #dropdownMenu1 {
       top: 177px;
       right: 42%; }
